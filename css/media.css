@@ -111,6 +111,12 @@
 }
 
 @media (max-width: 1024px) {
+    #qodef_page_header_for_sticky{
+        display: none;
+    }
+    #qodef_page_header_for_sticky>#qodef-page-header-inner_for_sticky> *{
+      display: none;
+    }    
     .elementor-heading-title {
         font-size: 32px;
         font-weight: bold;
@@ -121,9 +127,16 @@
     .gradient_buttons{
         flex-direction: column;
     }
-    .gradient_buttons>button {
+    .gradient_buttons>.gradient_button{
+        width: 100%;
+        display: flex;
+    }
+    .gradient_buttons>.gradient_button>button {
         width: 100% !important;
         margin: 10px;
+    }
+    .join_discord_button {
+        width:30%;
     }
     .sneek_content {
         flex-direction: column;
@@ -303,6 +316,12 @@
 }
 
 @media (max-width: 850px) {
+    #qodef_page_header_for_sticky{
+        display: none;
+    }
+    #qodef_page_header_for_sticky>#qodef-page-header-inner_for_sticky> *{
+      display: none;
+    }    
     .elementor-heading-title {
         font-size: 22px;
         font-weight: bold;
@@ -334,13 +353,6 @@
         display: inline-block;
         width: 100%;
         padding-left: 54px;
-    }
-    .gradient_buttons{
-        flex-direction: column;
-    }
-    .gradient_buttons>button {
-        width: 100% !important;
-        margin: 10px;
     }
     .sneek_content {
         flex-direction: column;
@@ -402,19 +414,18 @@
 }
 
 @media (max-width: 700px) {
+    #qodef_page_header_for_sticky{
+        display: none;
+    }
+    #qodef_page_header_for_sticky>#qodef-page-header-inner_for_sticky> *{
+      display: none;
+    }    
     .elementor-heading-title {
         font-size: 20px;
         font-weight: bold;
     }
     .elementor-text-editor{
         font-size: 16px;        
-    }
-    .gradient_buttons{
-        flex-direction: column;
-    }
-    .gradient_buttons>button {
-        width: 100% !important;
-        margin: 10px;
     }
     .sneek_content {
         flex-direction: column;
@@ -495,6 +506,12 @@
 }
 
 @media (max-width: 600px) {
+    #qodef_page_header_for_sticky{
+        display: none;
+    }
+    #qodef_page_header_for_sticky>#qodef-page-header-inner_for_sticky> *{
+      display: none;
+    }    
     .eael-creative-button-wrapper{
         padding: 7px;
     }
@@ -504,13 +521,6 @@
     }
     .elementor-text-editor{
         font-size: 16px;        
-    }
-    .gradient_buttons{
-        flex-direction: column;
-    }
-    .gradient_buttons>button {
-        width: 100% !important;
-        margin: 10px;
     }
     .sneek_content {
         flex-direction: column;
@@ -577,6 +587,12 @@
 }
 
 @media (max-width: 550px) {
+    #qodef_page_header_for_sticky{
+        display: none;
+    }
+    #qodef_page_header_for_sticky>#qodef-page-header-inner_for_sticky> *{
+      display: none;
+    }    
     .eael-creative-button-wrapper{
         padding: 3px;
     }
@@ -586,13 +602,6 @@
     }
     .elementor-text-editor{
         font-size: 16px;        
-    }
-    .gradient_buttons{
-        flex-direction: column;
-    }
-    .gradient_buttons>button {
-        width: 100% !important;
-        margin: 10px;
     }
     .whoWeAre_block{
         width: 100%;
@@ -720,6 +729,12 @@
 }
 
 @media (max-width: 450px) {
+    #qodef_page_header_for_sticky{
+        display: none;
+    }
+    #qodef_page_header_for_sticky>#qodef-page-header-inner_for_sticky> *{
+      display: none;
+    }    
     .eael-creative-button-wrapper{
         padding: 1px;
     }
@@ -729,13 +744,6 @@
     }
     .elementor-text-editor{
         font-size: 14px;        
-    }
-    .gradient_buttons{
-        flex-direction: column;
-    }
-    .gradient_buttons>button {
-        width: 100% !important;
-        margin: 10px;
     }
     .sneek_content {
         flex-direction: column;
@@ -863,6 +871,12 @@
 }
 
 @media (max-width: 370px) {
+    #qodef_page_header_for_sticky{
+        display: none;
+    }
+    #qodef_page_header_for_sticky>#qodef-page-header-inner_for_sticky> *{
+      display: none;
+    }    
     .eael-creative-button-wrapper{
         padding: 1px;
     }
@@ -872,13 +886,6 @@
     }
     .elementor-text-editor{
         font-size: 14px;        
-    }
-    .gradient_buttons{
-        flex-direction: column;
-    }
-    .gradient_buttons>button {
-        width: 100% !important;
-        margin: 10px;
     }
     .sneek_content {
         flex-direction: column;
